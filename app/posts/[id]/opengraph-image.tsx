@@ -15,9 +15,9 @@ import { ImageResponse } from "next/og";
  * ```
  */
 
-// export function generateStaticParams() {
-//   return [{ id: "abc" }];
-// }
+export function generateStaticParams() {
+  return [{ id: "abc" }];
+}
 
 export const alt = "Post";
 export const contentType = "image/png";
